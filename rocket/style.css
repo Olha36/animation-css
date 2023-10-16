@@ -1,0 +1,23 @@
+html,
+body {
+    height: 50%;
+}
+.wrapper {
+    display: flex;
+    align-items: flex-end;
+    min-height: 100%;
+    animation: rocket 5s infinite linear;
+}
+img {
+    width: 10%;
+    height: 10%;
+}
+
+@keyframes rocket {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
